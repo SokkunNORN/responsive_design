@@ -1,0 +1,70 @@
+
+####### font #######
+.font-weight-bold
+.font-weight-bolder
+.font-italic
+.font-weight-light
+.font-weight-lighter
+.font-weight-normal
+.lead
+.small
+
+##### text (left, center, right) ######
+.text-left
+.text-sm-left
+.text-md-left
+.text-lg-left
+.text-xl-left
+
+.text-lowercase
+.text-uppercase
+.text-capitalize
+
+######## text color ########
+.text-muted
+.-primary
+.-success
+.-danger
+.-white
+.-dark
+.-secondary
+.-info
+.-body
+.-light
+
+####### background ########
+.bg-pirmary
+.-seccess
+.-info
+.-warning
+.-danger
+.-secondary
+.-dark
+.-light
+
+######### table start by class table first ########
+.table
+.table-striped
+.-bordered
+.-hover
+.-dark
+.-borderless
+.-sm
+.-light
+
+.table-responsive (put in div that cover table)
+.-responsive-sm
+.-responsive-md
+.-responsive-lg
+.-responsive-xl
+
+
+
+
+
+
+
+
+
+
+

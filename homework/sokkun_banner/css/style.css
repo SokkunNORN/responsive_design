@@ -1,0 +1,103 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+   background: linear-gradient(to right, rgb(86, 153, 240), #15e7a8);
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.banner h1 {
+    padding-top: 140px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.search {
+    margin: -50px 6% 30px;
+    padding: 30px;
+    background: linear-gradient(to right, rgb(86, 153, 240), #15e7a8);
+}
+
+@media screen and (min-width:600px) {
+    .search .form-control {
+        display: inline-flex;
+        width: 300px;
+        box-shadow: none;
+        border-radius: 0;
+        margin: 7px;
+    }
+
+    .container .row {
+        padding: 10px 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .search .form-control {
+        width: 100%;
+        margin: 7px;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .container .row img {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.container .row img {
+    width: 110px;
+    margin: 10px;
+}
+
+.content {
+    margin: 60px;
+}
+
+.content .card i {
+    color: teal;
+}
+
+.content .card .card-footer {
+    padding: 7px;
+    background: linear-gradient(to right, rgb(86, 153, 240), #15e7a8);
+}
+
+.content .card .card-footer button {
+    padding: 1px 30px;
+    border-radius: 0;
+    color: #fff;
+    border: 1px solid #fff;
+    background: none;
+}
+
+.content .card .text-right {
+    margin-top: -25px;
+    padding-bottom: 10px;
+}
+
+.lef {
+    width: 70px;
+    height: 40px;
+    background: linear-gradient(to right, #1b7a33, rgb(65, 230, 120));
+    border-radius: 100px 0;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.top {
+    margin-bottom: 50px;
+}
+
+

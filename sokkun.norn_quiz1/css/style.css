@@ -1,0 +1,22 @@
+
+
+@media screen and (min-width:600px) {
+    body {
+        background: rgb(228, 220, 220);
+    }
+    .icon1 {
+        display:    none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    body {
+        background: pink;
+    }
+    .icon2 {
+        display: none;
+    }
+    .text-center {
+        display: none;
+    }
+}

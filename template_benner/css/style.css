@@ -1,0 +1,36 @@
+
+body {
+    background: rgb(239, 250, 249);
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    background-image: url('../img/coffee.jpg');
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 100%;
+}
+
+.nav-link, .navbar-brand {
+    color: rgb(62, 87, 83) !important;
+}
+
+.welcome {
+    padding: 50px 100px;
+    margin-top: -130px;
+}
+
+#about {
+    margin: 20px 10px;
+}
+
+#about .col-md-6 {
+    margin-top: 20px;
+}
+
+
+

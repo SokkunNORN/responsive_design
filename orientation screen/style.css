@@ -1,0 +1,44 @@
+
+@media(orientation: landscape) {
+    body {
+        background: rgb(18, 91, 121);
+        font-family: sans-serif;
+        color: #fff;
+    }
+    .db {
+        display: none;
+    }
+}
+
+@media(orientation: portrait) {
+    body {
+        background: #186830;
+        font-family: monospace;
+        color: #fff;
+    }
+    .php {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 300px) {
+    body {
+      background-color: rgb(27, 137, 173);
+      color: rgb(41, 11, 88);
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+    body {
+      background-color: rgb(27, 137, 173);
+      color: rgb(8, 1, 20);
+    }
+  }
+
+  @media(min-width: 600px) {
+    body {
+      background-color: rgb(71, 27, 173);
+      color: rgb(244, 243, 247);
+    }
+  }

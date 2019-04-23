@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-secondary">
+    
+    <div class="container mt-4">
+        <div class="card shadow-sm p-3">
+            <div class="card-header bg-white">
+                <a href="#" data-toggle="tooltip" data-placement="left" title="Add a user!">
+                    <i class="material-icons text-primary">
+                        control_point</i>
+                </a>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped table-hover">
+                    <thead class="bg-secondary text-white">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>admin</td>
+                            <td>user@example.com</td>
+                            <td>Male</td>
+                            <td>19</td>
+                            <td>
+                                <a href="#!" data-toggle="tooltip" data-placement="left" title="Edit a user!">
+                                    <i class="material-icons text-primary">edit</i>
+                                </a>
+                                <a href="#!" data-toggle="tooltip" data-placement="right" title="Delete a user!">
+                                    <i class="material-icons text-danger">delete</i>
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip(); 
+        });
+    </script>
+</body>
+</html>
